@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Top {
+  background-color: rgb(0, 13, 97);
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 20px;
+}
+
+.Nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  letter-spacing: 0.5px;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-style: dotted;
+}
+/*****************heading*******************/
+.heading {
+  /*background-color: rgb(35, 37, 58);*/
+  background-image: url("bg5.jpg");
+  height: 555px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.SocialMedia {
+  margin: 15px 0px;
+}
+.SocialMedia i {
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #800900;
+  color: white;
+}
+.SocialMedia i:hover {
+  background-color: white;
+  color: rgb(35, 37, 58);
+  border: 1px solid transparent;
+}
+h2 {
+  font-size: 50px;
+  margin: 10px 0px;
+}
+.heading p {
+  font-size: 18px;
+  width: 500px;
+  margin: 5px 0px;
+}
+.Portfolio_Button {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+  border-radius: 50px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.Portfolio_Button:hover {
+  background-color: red;
+  border: 1px solid transparent;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin: 25px 0px;
+}
+/*************right*************/
+.right {
+  border: 3px solid #1980d4;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body h3 {
+  text-align: center;
+  background-color: rgb(0, 0, 135);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+body hr {
+  border-color: rgb(0, 0, 135);
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.project {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.projects:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project img {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.project h4 {
+  text-align: center;
+}
+
+.about p {
+  text-align: center;
+}
+.about h4 {
+  padding-left: 40%;
+}
+.about a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #00258a;
+}
+
+.course {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.courses:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.course img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.course h4 {
+  text-align: center;
+}
+
+.achievement {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.achievements:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.achievement img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.achievement h4 {
+  text-align: center;
+}
+
+.skills ul {
+  padding-right: 2pc;
+  padding-left: 2%;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills img {
+  max-width: 90px;
+}
+.skills {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.Talks {
+  text-align: left;
+  padding: 20px 0;
+}
+
+fieldset {
+  padding-left: 10pc;
+}
+fieldset button {
+  padding-left: 1pc;
+  padding-right: 1pc;
+  padding-top: 0.5pc;
+  padding-bottom: 0.5pc;
+  border-radius: 12pc;
+  border-color: hsl(192, 100%, 50%);
+}
+
+fieldset input {
+  padding-top: 0.3pc;
+  padding-bottom: 0.3pc;
+
+  border-radius: 0.5pc;
+  border-color: #fff;
+}
+fieldset textarea {
+  border-radius: 0.5pc;
+}
+
+.Talks h2 {
+  text-align: center;
+  background-color: aliceblue;
+  padding-bottom: 1pc;
+  padding-top: 1pc;
+}
+
+.Talks {
+  margin-bottom: 20px;
+}
+
+.Talks img {
+  max-width: 60%;
+  border-radius: 5px;
+}
+
+.contact {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(0, 0, 68);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
